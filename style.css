@@ -1,0 +1,369 @@
+
+dy, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, ul, ol, li, blockquote, pre, a, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, tt, var, b, u, i, center, dl, dt, dd, fieldset, form, label, legend {
+	margin:0;
+	padding:0;
+	border:0;
+	outline:0;
+	font-size:100%;
+	vertical-align:baseline;
+	background:transparent
+}
+ol, ul {
+	list-style:none
+}
+blockquote, q {
+	quotes:none
+}
+blockquote:before, blockquote:after, q:before, q:after {
+	content:'';
+	content:none
+}
+:focus {
+	outline:0
+}
+ins {
+	text-decoration:none
+}
+del {
+	text-decoration:line-through
+}
+table {
+	border-collapse:collapse;
+	border-spacing:0
+}
+
+th, td {
+	margin:0;
+	padding:0
+}
+
+.clear {
+	clear:both;
+	display:block;
+	overflow:hidden;
+	visibility:hidden;
+	width:0;
+	height:0
+}
+
+body {
+	background:url(images/bg.jpg) repeat;
+	font-weight: normal;
+	font-size: 16px;
+	color:#4a4a4a;
+	font-family:"Trebuchet MS", Verdana, sans-serif;
+	margin:40px auto 0;
+}
+
+h1 {
+	text-align: left;
+	font-size: 1.8em;
+	margin-bottom:10px;
+	color:#080808;
+}
+
+h2 {
+	text-align: left;
+	font-size: 1.6em;
+	margin-bottom:10px;
+	color:#080808;
+}
+
+h3 {
+	text-align: left;
+	/*font-size: 1.3em;*/
+	/*color:#080808;*/
+	font-weight: bold;
+}
+
+p {
+	
+	padding:0;
+	margin-top:-4px;
+}
+
+em {
+	font-style: italic;
+}
+
+strong {
+	font-weight: bold;
+}
+
+#header {
+	font-size: 1.5em;
+	min-width:75%;
+	max-width:80%;
+	overflow: hidden;
+	margin:0 auto;
+	position: relative;
+}
+
+#header h1 {
+	font-size: 1.5em;
+	font-weight: bold;
+	text-align: left;
+	float:left;
+	margin: 0 18px; 
+	text-decoration: none;
+	color:#717171;
+	text-transform: uppercase;
+	text-shadow: 0px 1px 1px #fff;
+}
+
+#header h1 a{
+
+	font-weight: bold;
+	text-align: left;
+	float:left;
+	text-decoration: none;
+	color:#717171;
+	text-transform: uppercase;
+	text-shadow: 0px 1px 1px #fff;
+}
+
+#header ul {
+	text-align: center;
+	float:left;
+	list-style:none
+}
+
+#header li {
+	float:left;
+	margin: .14em 20px 0; 
+	padding: 0; 	
+	list-style:none;	
+	display: inline-block;  
+	font-size: 1.2em;
+	text-shadow: 0px 1px 1px #fff;	
+	color:#000;
+}
+
+#header li.current {
+	background: transparent url(images/pointer.png) center bottom no-repeat;
+	padding-bottom:11px;
+}
+
+#header li a {
+	text-decoration: none;
+	border:0;
+	color:#000;	
+	display: block; 
+	position:relative; 
+	z-index: 52; 
+}
+
+#header li a:hover {
+	color:#313131;
+}
+
+#paper {
+	background:#fff;
+	background-clip: content-box;
+	/*background:transparent url(images/paper.png) no-repeat center;*/
+	/*border-image: url(images/paper.png) 100 100 round;*/
+	
+	border-style: solid;
+	border-width: 30px 90px;
+	-moz-border-image: url(images/paper.png) 30 90  repeat;
+	-webkit-border-image: url(images/paper.png) 30 90  repeat;
+	-o-border-image: url(images/paper.png) 30 90  repeat;
+	border-image: url(images/paper.png) 30 90  repeat;
+
+	
+	width:80%;
+	min-height:340px;
+	margin:0 auto;
+	position:relative;
+	z-index:50;		
+	overflow: hidden;
+}
+
+#content {
+	width: 75%;
+	margin:0 auto;
+	padding-top:2.5%;
+	font-size:1.3em;
+	line-height:1.2em;
+}
+
+#content a {	
+	/*color:#999;*/
+	color: #4f7da0;
+	text-decoration: none;
+}
+
+#content a:hover {
+	/*color:#777;*/
+	color:#5f8db0;
+	text-decoration: none;
+	
+}
+
+
+#content div.article{
+	width:100%;
+	float:left;
+	overflow:hidden;
+	margin-bottom:3%;
+}
+
+
+#content div.article .gallery{
+	float:left;
+	padding-right:2%;
+	width:25%;
+	
+}
+#content div.article .gallery img{
+	
+	width:100%;
+		/*box-shadow: 10px 10px 5px #888888;
+	-webkit-box-shadow: 0 8px 6px -6px black;
+	   -moz-box-shadow: 0 8px 6px -6px black;
+	        box-shadow: 0 8px 6px -6px black;*/
+}
+
+#content div.article .gallery .gallery-more{
+	display: table;
+}
+
+#content div.article .gallery .gallery-more a{
+	display: table-cell;
+	padding: 0 .25em;
+	max-width:33%;
+}
+
+#content div.article .gallery .gallery-more img{
+	width:100%;
+}
+
+
+#content  div.article div{
+	display: block;
+	overflow: hidden
+}
+
+#content  div.article p{
+	margin-bottom:4%;
+}
+
+
+#content div.article h5{
+	display:inline;
+}
+
+#content  div.article ul {
+		margin-top:2%;
+}
+
+#content  div.article ul.links{
+}
+
+#content  div.article ul.links li{    
+	background:url(images/link.png) no-repeat;
+    padding-left:40px;
+	min-height:32px;
+	line-height:32px;
+	margin: .45em 0;
+	display: table;
+}
+
+#content  div.article ul.links li span{
+	margin:auto 0;
+	padding:auto 0;
+	display: table-cell;
+	vertical-align:middle;
+}
+
+#content  div.article ul.links li.android{
+background:url(images/android-robot.png) no-repeat;	
+}
+
+#content  div.article ul.links li.apple{
+background:url(images/apple-logo.png) no-repeat;
+}
+
+#content  div.article ul.links li.github{
+background:url(images/github.png) no-repeat;
+}
+
+#footer {	
+	margin:0 auto;
+	text-align: center;
+	color:#555555;
+	text-shadow: 1px 1px 0px #f0f0f0;
+	position: relative;
+	z-index:60;
+	padding-top:20px;
+	padding-bottom:60px;
+}
+#footer a {
+	color:#555555;
+	text-decoration: none;
+}
+#footer a:hover {
+	text-decoration: underline;
+}
+
+
+#content div.contact{
+	width:100%;
+	float:left;
+	overflow:hidden;
+	margin-bottom:3%;
+	
+}
+
+#content div.contact ul {
+	width:50%;
+	margin:0 auto;
+}
+
+#content div.contact ul li {
+	padding-left:74px;
+	margin: 1em 0;
+	min-height:64px;
+	line-height:32px;
+	display: table;
+}
+#content div.contact ul li span{
+	margin:auto 0;
+	padding:auto 0;
+	min-height:64px;
+	display: table-cell;
+	vertical-align:middle;
+}
+
+#content div.contact ul li h3 {
+}
+
+#content div.contact ul li a {
+}
+
+
+#content div.contact ul li.googleplay {
+	background:url(images/android-robot64.png) no-repeat left center;
+}
+
+#content div.contact ul li.github {
+	background:url(images/github64.png) no-repeat left center;
+}
+
+#content div.contact ul li.twitter {
+	background:url(images/t64.png) no-repeat left center;
+}
+
+#content div.contact ul li.linkedin {
+	background:url(images/l64.png) no-repeat left center;
+}
+
+#content div.contact ul li.email {
+	background:url(images/email64.png) no-repeat left center;
+}
+
+div.contact ul li h3 {
+
+}
+
+
